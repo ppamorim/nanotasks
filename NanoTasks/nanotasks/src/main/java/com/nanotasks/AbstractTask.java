@@ -23,7 +23,7 @@ import android.util.Log;
  *
  * @author Fabien Devos.
  */
-public abstract class AbstractTask<T> extends AsyncTask<Void, Void, T> {
+protected abstract class AbstractTask<T> extends AsyncTask<Void, Void, T> {
 
   private BackgroundWork<T> backgroundWork;
   private Exception exception;
